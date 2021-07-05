@@ -1,0 +1,49 @@
+body {
+    font: 13px/1.2307692308 "Lato", sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  
+  .card {
+    display: grid;
+    grid-template-columns: repeat(5, 18.8rem);
+  
+    .cards {
+      padding: 1rem;
+      width: 70%;
+      border: 3px solid white;
+      background-color: rgb(238, 238, 238);
+  
+      img {
+        margin-left: auto;
+        margin-right: auto;
+        margin: 0 auto;
+      }
+  
+      .bands-info {
+        height: auto;
+        margin: auto;
+  
+        .album_title {
+          font-size: 14px;
+          line-height: 19px;
+          font-weight: 700;
+          margin-left: 8px;
+          -webkit-line-clamp: 2;
+          -webkit-box-orient: vertical;
+          overflow: hidden;
+          color: #333;
+        }
+  
+        .artist_title {
+          margin-left: 8px;
+          padding-bottom: 2px;
+        }
+  
+        .genre_text {
+          font-family: inherit;
+          margin-left: 9px;
+          color: rgb(182, 182, 182);
+        }
+      }
+    }
+  }
